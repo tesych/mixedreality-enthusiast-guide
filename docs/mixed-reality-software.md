@@ -13,8 +13,8 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, softwar
 Windows Mixed Reality consists of the following major software components:
 
 1. **Mixed Reality Portal**, which provides the main Windows Mixed Reality experience
-  * In Windows 10, versions 1709 and 1803, Mixed Reality Portal is a key component of the Windows 10 operating system and is updated via Windows Update.
-  * In Windows 10, version 1809 and newer, Mixed Reality Portal is updated via the Microsoft Store app.
+    * In Windows 10, versions 1709 and 1803, Mixed Reality Portal is a key component of the Windows 10 operating system and is updated via Windows Update.
+    * In Windows 10, version 1809 and newer, Mixed Reality Portal is updated via the Microsoft Store app.
 2. The **Mixed Reality feature-on-demand package** (FOD), automatically downloaded and installed during Mixed Reality Portal's first-run. More information about the FOD package can be found [here](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality)
 3. The **Mixed Reality headset and motion controller driver**, also known as the HoloLens Sensors driver, is the key driver package that enables Windows Mixed Reality headsets to work with Windows Mixed Reality. This is automatically downloaded and installed via Windows Update the first time your Mixed Reality headset is plugged in, and is regularly updated via Windows Update
 4. The **Mixed Reality motion controller model drivers** contains the 3D models of the Mixed Reality motion controllers and needed for third-party Mixed Reality experiences. This is automatically downloaded and installed via Windows Update the first time your Mixed Reality motion controllers are paired to your PC, and is updated via Windows Update
@@ -41,7 +41,7 @@ This driver is automatically downloaded and installed via Windows Update, but do
 
    | Version          | Release Date          | Major changes                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
-   | [10.0.18362.1062](https://www.microsoft.com/en-us/download/details.aspx?id=58492)  | June 24th, 201 9      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Windows Mixed Reality headset platform and reliability improvements around sleeping computers and power state transitions.</li></ul>  | 
+   | [10.0.18362.1062](https://www.microsoft.com/en-us/download/details.aspx?id=58492)  | June 24th, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Windows Mixed Reality headset platform and reliability improvements around sleeping computers and power state transitions.</li></ul>  | 
    | [10.0.18362.1024](https://www.microsoft.com/en-us/download/details.aspx?id=58225)  | May 1st, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Contains firmware update for 2017 Acer, Asus, Dell, Fujitsu, HP, Lenovo and Medion Windows Mixed Reality headsets. This firmware update improves headset display compatibility and reliability with certain graphics adapters and/or graphics drivers.</li><li>Windows Mixed Reality headset platform and reliability improvements</li></ul>  | 
 
 
@@ -81,6 +81,16 @@ This driver is also automatically downloaded and installed via Windows Update, b
    | Version          | Release Date          | Major changes                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
    | [10.0.16291.1000, 10.0.16299.1012](http://www.microsoft.com/en-us/download/details.aspx?id=56414)  | October 17th, 2017    | Initial public release of the driver                          |
+
+### Mixed Reality Portal release history ###
+
+In Windows 10, version 1809 and newer, [Mixed Reality Portal](https://www.microsoft.com/store/apps/9NG1H8B3ZC7M) is updated via the Microsoft Store app.
+
+#### Windows 10, version 1809 and newer ####
+
+   | Version            | Release Date          | Major changes                                                 |
+   |--------------------|-----------------------|---------------------------------------------------------------|
+   | 2000.19071.1302.0  | August 13th, 2019     | <ul><li>Support for applications using [OpenXR](https://docs.microsoft.com/en-us/windows/mixed-reality/openxr) on devices with the May 2019 Update.</li></ul>  | 
 
 ### SteamVR release history ###
 

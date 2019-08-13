@@ -377,6 +377,14 @@ Some environments with unusual lighting conditions can affect tracking.
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by poor Bluetooth link quality.
 
+### Motion Controller LEDs are not lit, but buttons and thumbstick still work in Mixed Reality Portal
+
+It is possible that the Motion Controller calibration cache has become corrupt. To delete the Motion Controller calibration cache, run the following command in an Administrator Command Prompt:
+
+`rmdir /S /Q C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\MotionController\Calibration`
+
+This folder is not accessible in Windows Explorer, and can only be modified from an Administrator Command Prompt. After you have deleted the folder, restart your PC and reconnect your Motion Controllers to restore the calibration files.
+
 ### Motion controllers do not appear in SteamVR apps/games ###
 
 If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is typically automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually.
