@@ -5,7 +5,7 @@ title:  Enthusiast's Guide to Windows Mixed Reality
 author: mattwojo
 ms.author: mattwoj
 ms.topic: hub-page
-ms.prod: windows
+ms.prod: mixed-reality
 ms.technology: enthusiast-guide
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, enthusiast
 ---
