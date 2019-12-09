@@ -10,7 +10,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Ultra, 
 
 For the best experience with Windows Mixed Reality you want to start with a new [Windows Mixed Reality-ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs) or a Windows Mixed Reality-compatible PC that can provide Windows Mixed Reality Ultra experiences. Windows Mixed Reality Ultra provides crisper visuals at higher refresh rates, more apps and experiences including the most graphics-intensive games, mirroring of your Windows Mixed Reality experience on your desktop and the ability to record and share (photo and video) your experiences with others. 
 
-To see if your PC can run Windows Mixed Reality review the hardware guidelines below and run the [Windows Mixed Reality PC Check App](https://www.microsoft.com/store/apps/9nzvl19n7cnc).
+To see if your PC can run Windows Mixed Reality review the hardware guidelines below and run the [Mixed Reality Portal App](https://www.microsoft.com/store/apps/9NG1H8B3ZC7M).
 
 Remember, your performance will vary depending on your exact setup. You'll also need to make sure your PC has the [right ports](recommended-adapters-for-windows-mixed-reality-capable-pcs.md) for the Windows Mixed Reality immersive headset that you are using.
 
@@ -19,11 +19,11 @@ Remember, your performance will vary depending on your exact setup. You'll also 
 
 
 
-## Windows Mixed Reality PC Check app
+## Mixed Reality Portal app
 
-The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** app is the best way to make sure your PC is ready to run Windows Mixed Reality. 
+Mixed Reality Portal is the best way to make sure your PC is ready to run Windows Mixed Reality. 
 
-<a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC"><img alt="Download Windows Mixed Reality PC Check app" src="images/WMR-PC-Check-app.png"/></a>
+<a href="https://www.microsoft.com/store/productid/9ng1h8b3zc7m"><img alt="Download Mixed Reality Portal" src="images/WMR-PC-Check-app.png"/></a>
 
 After running the app, you'll get one of the following messages:
 * **You're good to go.** Your PC has what it takes to run Windows Mixed Reality.
@@ -45,7 +45,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 </tr>
 </table>
 
- [Get help with Windows Mixed Reality PC Check results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
+ [Get help with Mixed Reality Portal's PC Check results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
 
 ## Compatibility guidelines
 > [!IMPORTANT]
@@ -187,4 +187,3 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 
 ## See also
 * [Recommended adapters for Windows Mixed Reality capable PCs](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
-* [Windows Mixed Reality PC Check app](windows-mixed-reality-pc-check-app.md)
