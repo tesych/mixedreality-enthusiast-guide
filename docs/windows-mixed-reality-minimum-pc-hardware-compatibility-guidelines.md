@@ -55,7 +55,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 <tr>
 <th style="width:20%"></th><th style="vertical-align: middle; text-align: center; width:40%">Windows Mixed Reality Ultra PCs</th><th style="vertical-align: middle; text-align: center; width:40%">Windows Mixed Reality PCs</th>
 </tr><tr>
-<td style="vertical-align: middle">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) - Home, Pro, Business, Education.<br/>    (<b>Note</b>: Not supported on N versions or Windows 10 Pro in S Mode)</td>
+<td style="vertical-align: middle">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) or later - Home, Pro, Business, Education.<br/>    (<b>Note</b>: Not supported on N versions or Windows 10 Pro in S Mode)</td>
 </tr><tr>
 <td style="vertical-align: middle">Processor</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 4590 (4th generation), quad-core (or better) <br>AMD Ryzen 5 1400 3.4Ghz (desktop), quad-core (or better)</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 7200U (7th generation mobile), dual-core with Intel&#174; Hyper-Threading Technology enabled (or better)</td>
 </tr><tr>
