@@ -121,6 +121,31 @@ Make sure the lights are turned on and that there isn't anything obstructing the
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
+## Get ready for the new Microsoft Edge
+
+Windows Mixed Reality VR headset customers who want to use the new, Chromium-based, Microsoft Edge in the mixed reality home should **upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge)** in the mixed reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
+
+For the best possible Microsoft Edge experience in the mixed reality home, we also recommend waiting for **some key Windows Mixed Reality optimizations for the new Microsoft Edge arriving with the 2020-01 Cumulative update for Windows 10 Version 1903 (or later)**, which should be available in Windows Update by the end of January.
+
+>[!IMPORTANT]
+>The new Microsoft Edge launches with support for WebXR, the new standard for creating immersive web experiences for VR headsets. When you install the new Microsoft Edge, you will no longer be able to play WebVR experiences in Microsoft Edge. 
+
+### Known issues with the new Microsoft Edge in Windows Mixed Reality
+
+**Known issues resolved by the 2020-01 Cumulative update for Windows 10 Version 1903 (or later)**
+- Launching any Win32 app, including the new Microsoft Edge, causes the headset display to briefly freeze.
+- The Microsoft Edge tile disappears from the Windows Mixed Reality Start menu (you can find it in the “Classic apps” folder).
+- Windows from the previous Microsoft Edge are still placed around the mixed reality home, but cannot be used. Attempting to activate those windows launches Edge inside of the Desktop app.
+- Selecting a hyperlink in the mixed reality home launches a web browser on the desktop instead of the mixed reality home.
+- The WebVR Showcase app is present in the mixed reality home, despite WebVR no longer being supported.
+- General improvements to keyboard launch and visuals.
+
+**Additional known issues**
+-	Websites open in Windows Mixed Reality will be lost when Mixed Reality Portal closes, though the Microsoft Edge windows will remain where they were placed in the mixed reality home.
+-	Audio from Microsoft Edge windows is not spatialized.
+-	Opening a 360 video from YouTube in Windows Mixed Reality may result in the video being distorted in the headset. Refreshing the YouTube video’s page and relaunching the 360 video should fix the issue.
+-	During Windows Mixed Reality sessions, virtual monitors will appear as generic physical monitors in Settings > System > Display.
+
 ## HMD Connectivity
 
 ### My computer does not have an HDMI port
