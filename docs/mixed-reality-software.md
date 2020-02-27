@@ -15,7 +15,7 @@ Windows Mixed Reality consists of the following major software components:
 1. **Mixed Reality Portal**, which provides the main Windows Mixed Reality experience
     * In Windows 10, versions 1709 and 1803, Mixed Reality Portal is a key component of the Windows 10 operating system and is updated via Windows Update.
     * In Windows 10, version 1809 and newer, Mixed Reality Portal is updated via the Microsoft Store app.
-2. The **Mixed Reality feature-on-demand package** (FOD), automatically downloaded and installed during Mixed Reality Portal's first-run. More information about the FOD package can be found [here](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality)
+2. The **Mixed Reality feature-on-demand package** (FOD), automatically downloaded and installed during Mixed Reality Portal's first-run. More information about the FOD package can be found [here](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality)
 3. The **Mixed Reality headset and motion controller driver**, also known as the HoloLens Sensors driver, is the key driver package that enables Windows Mixed Reality headsets to work with Windows Mixed Reality. This is automatically downloaded and installed via Windows Update the first time your Mixed Reality headset is plugged in, and is regularly updated via Windows Update
 4. The **Mixed Reality motion controller model drivers** contains the 3D models of the Mixed Reality motion controllers and needed for third-party Mixed Reality experiences. This is automatically downloaded and installed via Windows Update the first time your Mixed Reality motion controllers are paired to your PC, and is updated via Windows Update
 5. **Windows 10, version 1709 (the Fall Creator's Update) or newer** contains key OS components and technologies that enable Windows Mixed Reality
@@ -81,7 +81,7 @@ This driver is also automatically downloaded and installed via Windows Update, b
 
    | Version          | Release Date          | Major changes                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
-   | [10.0.16291.1000, 10.0.16299.1012](http://www.microsoft.com/en-us/download/details.aspx?id=56414)  | October 17th, 2017    | Initial public release of the driver                          |
+   | [10.0.16291.1000, 10.0.16299.1012](https://www.microsoft.com/download/details.aspx?id=56414)  | October 17th, 2017    | Initial public release of the driver                          |
 
 ### Mixed Reality Portal release history ###
 
@@ -91,9 +91,11 @@ In Windows 10, version 1809 and newer, [Mixed Reality Portal](https://www.micros
 
    | Version            | Release Date          | Major changes                                                 |
    |--------------------|-----------------------|---------------------------------------------------------------|
-   | 2000.19081.1301.0  | September 23, 2019    | <ul><li>Resolves an issue where headsets encountering hardware problems were shown an incorrect error message. Users that received a 1-4 error code on previous versions may now receive a more specific error code for their device state.</li></ul>  |
-   | 2000.19071.1302.0  | August 13th, 2019     | <ul><li>Support for applications using [OpenXR](https://docs.microsoft.com/en-us/windows/mixed-reality/openxr) on devices with the May 2019 Update.</li></ul>  | 
-   | 2000.19061.1011.0  | July 16, 2019         | <ul><li>Support for JSON configuration options to customize app behavior. Read more at https://docs.microsoft.com/en-us/windows/mixed-reality/location-based-experiences#setup.</li></ul>  | 
+   | 2000.20011.1312.0  | February 11, 2020     | <ul><li>Improved support for applications using [OpenXR](https://docs.microsoft.com/windows/mixed-reality/openxr) on devices with the May 2019 Update.</li><li>Addresses accessibility and keyboard focus issues</li></ul>  | 
+   | 2000.19101.1211.0  | November 11, 2019     | <ul><li>Addresses an issue that prevents you from toggling room boundary visuals.</li><li>Addresses an issue that prevents you from centering a headset during room boundary setup.</li></ul>  | 
+   | 2000.19081.1301.0  | September 23, 2019    | <ul><li>Addresses an issue where headsets encountering hardware problems were shown an incorrect error message. Users that received a 1-4 error code on previous versions may now receive a more specific error code for their device state.</li></ul>  |
+   | 2000.19071.1302.0  | August 13th, 2019     | <ul><li>Support for applications using [OpenXR](https://docs.microsoft.com/windows/mixed-reality/openxr) on devices with the May 2019 Update.</li></ul>  | 
+   | 2000.19061.1011.0  | July 16, 2019         | <ul><li>Support for JSON configuration options to customize app behavior. Read more at https://docs.microsoft.com/windows/mixed-reality/location-based-experiences#setup.</li></ul>  | 
 
 ### SteamVR release history ###
 
