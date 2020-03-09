@@ -41,7 +41,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 
 **Quick Answer:** Mixed Reality refers to the full spectrum of spatial computing, from augmented reality and holograms to virtual reality. Microsofts Mixed Reality platform supports both Virtual Reality and Augmented Reality. We currently support two device types with similar technology on that spectrum: HoloLens (AR) and Windows Mixed Reality (VR) headsets with motion controllers. 
 
-Learn more about Mixed Reality here: <https://docs.microsoft.com/en-us/windows/mixed-reality/mixed-reality>
+Learn more about Mixed Reality here: <https://docs.microsoft.com/windows/mixed-reality/mixed-reality>
 
 ### What is the difference between Windows Mixed Reality and other VR headsets?
 
@@ -59,7 +59,7 @@ Learn more about Mixed Reality here: <https://docs.microsoft.com/en-us/windows/m
 
 * **Outside-in Tracking** Oculus, Vive and others use Outside-in tracking.  With Outside-in tracking the headset is tracked by one or more external devices. Camera(s) are built into those external devices, placed around the environment and are used to determine the position of the headset in relation to the environment. 
 
-To learn more about inside-out tracking you can go here: <https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/tracking-system>
+To learn more about inside-out tracking you can go here: <https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/tracking-system>
 
 ### Can inside-out tracking of motion controllers impact my game play due to camera FOV?
 
@@ -71,7 +71,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 **Quick Answer:** All smartphone based VR products, including the Samsung Gear VR and Google Daydream, use 3 Degrees Of Freedom (3DOF) head position tracking systems. 3DOF based systems allow you to move your head **only** from the neck up in the virtual world. Windows MR on the other hand uses a 6 Degrees of Freedom (6DOF) head and controllers position tracking systems. 6DOF based systems allow you to move your entire body in the virtual world; so you can walk around an object and see it from different perspectives, just like you can in the physical world. The Rift and the Vive are also 6DOF based systems.
 
-* Read more about 3DOF and 6DOF here: <https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/tracking-system#what-is-the-difference-between-3dof-and-6dof> 
+* Read more about 3DOF and 6DOF here: <https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/tracking-system#what-is-the-difference-between-3dof-and-6dof> 
 * Read more about Positional Tracking and Degree's of Freedom (DOF) here: <https://www.roadtovr.com/introduction-positional-tracking-degrees-freedom-dof/>
 
 ## Technical specifications

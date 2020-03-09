@@ -1,4 +1,4 @@
-# [Mixed Reality: Enthusiast Guide](index.md)
+# [Windows Mixed Reality enthusiast documentation](index.yml)
 
 ## Before you buy
 ### [Frequently asked questions](before-you-buy-faqs.md)

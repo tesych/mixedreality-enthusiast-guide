@@ -27,7 +27,7 @@ No. You must use a Windows Mixed Reality headset to use WebVR in Edge. However, 
 
 ## Where can I find the WebVR developer documentation?
 
-The developer documentation is located here: [WebVR Developer Documentation](https://docs.microsoft.com/en-us/microsoft-edge/webvr/).
+The developer documentation is located here: [WebVR Developer Documentation](https://docs.microsoft.com/microsoft-edge/webvr/).
 
 ## I've found a website with WebVR that doesn't work in Windows Mixed Reality. What do I do?
 
