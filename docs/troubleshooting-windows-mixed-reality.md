@@ -350,6 +350,13 @@ If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, 
 
 For more information on Windows 10 N, please visit [this page](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017).
 
+
+### My WMR environment is jittery or stutters when I move my head and displays double vision
+
+On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a period of time that appears to cause a previous frame to display after the next frame, resulting in double vision the faster you move your head in a yaw, pitch, or roll movement.  The issue appears to be on drivers after Nvidia Graphics Driver 436.48.  Installing this driver will fix the issue until Nvidia solves the problem in the updated drivers.
+
+For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://www.nvidia.com/Download/driverResults.aspx/152007/en-us).
+
 ## Firmware update issues
 
 ### My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck
