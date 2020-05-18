@@ -37,6 +37,13 @@ Managing your Windows Mixed Reality headset:
 This driver is automatically downloaded and installed via Windows Update, but download links are provided inline:
 
 
+#### Windows 10, version 2004 (May 2020 Update) ####
+
+   | Version          | Release Date          | Major changes                                                 |
+   |------------------|-----------------------|---------------------------------------------------------------|
+   | [10.0.19041.1009](https://www.microsoft.com/en-us/download/details.aspx?id=101260)  | May 7th, 2020      | Compatible with Windows 10, version 1903, and newer.<br/><ul><li>Windows Mixed Reality headset platform minor fixes and reliability improvements.</li></ul>  | 
+
+
 #### Windows 10, version 1903 (May 2019 Update) ####
 
    | Version          | Release Date          | Major changes                                                 |
