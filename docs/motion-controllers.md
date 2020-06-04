@@ -61,7 +61,7 @@ Windows Mixed Reality motion controllers offer precise and responsive tracking o
 * Both controllers should be connected now. (Check Bluetooth and other devices for the following): ![Controllers connected](images/cyk-connected.jpg)
 * Verify your controllers work properly:
   * Launch **Mixed Reality Portal** and enter your Mixed Reality Home.
-  * Move your controllers and verify tracking, test buttons, and verify teleportation works. If they don't, then check out [the motion controller troubleshooting section](troubleshooting-windows-mixed-reality.md#motion-controllers) 
+  * Move your controllers and verify tracking, test buttons, and verify teleportation works. If they don't, then check out [the motion controller troubleshooting section](motion-controller-problems.md) 
 
 ## FAQ
 
@@ -82,7 +82,7 @@ Windows Mixed Reality motion controllers offer precise and responsive tracking o
 Give us feedback in Feedback Hub, using the "Mixed Reality -> Input" category.
 
 ## See also
-* [Troubleshooting mixed reality > Motion controllers](troubleshooting-windows-mixed-reality.md#motion-controllers)
+* [Troubleshooting mixed reality > Motion controllers](motion-controller-problems.md)
 * [Your Windows Mixed Reality home](your-mixed-reality-home.md)
 * [Using games & apps in Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
 * [Tracking system](tracking-system.md)

@@ -209,7 +209,7 @@ Your feedback is invaluable when it comes to improving the Windows Mixed Reality
 If you have questions or comments to share, you can also reach us on our [Steam forum](http://steamcommunity.com/app/719950/discussions/).
 
 ## See also
-* [Troubleshooting SteamVR with Windows Mixed Reality](troubleshooting-windows-mixed-reality.md#steamvr)
+* [Troubleshooting SteamVR with Windows Mixed Reality](steamvr-questions.md)
 * [Using games and apps in Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
 * [Minimum PC hardware guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
 * [Filing bugs and feedback](filing-feedback.md)

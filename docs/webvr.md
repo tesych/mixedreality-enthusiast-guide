@@ -55,7 +55,7 @@ To experience WebVR content on a Windows Mixed Reality headset (using hardware o
 
 ## See also
 
-* [Troubleshooting > WebVR](troubleshooting-windows-mixed-reality.md#webvr)
+* [Troubleshooting > WebVR](webvr-questions.md)
 * [How to get into your first WebVR experience](using-games-and-apps-in-windows-mixed-reality.md#how-to-get-into-your-first-webvr-experience)
 * [Using games and apps in Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
 * [Your Mixed Reality Home](your-mixed-reality-home.md)

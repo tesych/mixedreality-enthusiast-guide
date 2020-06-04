@@ -19,7 +19,20 @@
 ### [SteamVR](using-steamvr-with-windows-mixed-reality.md)
 ### [WebVR](webvr.md)
 
-## [Troubleshooting](troubleshooting-windows-mixed-reality.md)
+## Troubleshooting FAQs
+### [Common installation error messages](Common-installation-error-messages.md)
+### [Setup questions](set-up-questions.md)
+### [Boundary questions](boundary-questions.md)
+### [Error codes and how to resolve them](error-codes.md)
+### [Headset connectivity issues](headset-connectivity-issues.md)
+### [Headset display problems](headset-display-problems.md)
+### [Motion controller problems](motion-controller-problems.md)
+### [Performance questions](performance-questions.md)
+### [Speech and audio problems](speech-n-audio-problems.md)
+### [Tracking system problems](tracking-problems.md)
+### [SteamVR questions](steamvr-questions.md)
+### [WebVR questions](webvr-questions.md)
+### [Other questions](other-questions.md)
 
 ## Appendix
 ### [Filing bugs and feedback](filing-feedback.md)

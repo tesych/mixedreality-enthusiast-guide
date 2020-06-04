@@ -45,7 +45,7 @@ First, DOF is short-hand for "degrees of freedom." When discussing tracking syst
 
 ## Things are jittering or stuttering in my headset. Is my tracking not working?
 
-There are a couple sources of this kind of error. It is important to be able to attribute what you are observing to the right cause so that it may be addressed. See the [troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) section to help understand why this may be happening.
+There are a couple sources of this kind of error. It is important to be able to attribute what you are observing to the right cause so that it may be addressed. See the [troubleshooting](tracking-problems.md) section to help understand why this may be happening.
 
 ## Can I bring my own tracking technology to Windows Mixed Reality?
 
@@ -55,7 +55,7 @@ This is not currently supported.
 
 Since the safety boundary is specific to a physical location, if you are using the device in a different location then the system will not be able to find the bounds. Additionally, once you have set up your boundary, the system will always look for it, even if you use the device in a different physical location. You will see this UI anytime you use the device in a different location and have not set up a boundary in that location yet. You can set up boundaries in each location you use the device, and the device will recall your location specific bounds.
 
-If you are using the device in a location you have previously set up a boundary, and the device still cannot find it, you may set up a new bounds, or clear all environment data to remove all bounds from the device. See the [troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) section to understand why the system cannot find your bounds and steps to correct it.
+If you are using the device in a location you have previously set up a boundary, and the device still cannot find it, you may set up a new bounds, or clear all environment data to remove all bounds from the device. See the [troubleshooting](tracking-problems.md) section to understand why the system cannot find your bounds and steps to correct it.
 
 ## How do I set up tracking?
 
@@ -66,7 +66,7 @@ Tracking in Windows Mixed Reality is simple to use. There is no infrastructure o
 The tracking system stores some environment data so that it can recall the real-world physical location of things like your safety bounds. This information, including your safety bounds, can be removed at any time. If this information is removed, the system will no longer recognize your space or be able to recall your safety bounds. If you wish to use safety bounds after clearing the environment data, you will have to set it up again. See the section on [setting up your boundary](set-up-windows-mixed-reality.md#set-up-your-room-boundary) to set up a new boundary. To remove all of this data, open Settings, navigate to "Mixed Reality", and select the Environment section of the left hand side menu. Click the button labelled "Clear Environment Data" to remove all environment and tracking data.
 
 ## See also
-* [Troubleshooting the tracking system](troubleshooting-windows-mixed-reality.md#tracking-system)
+* [Troubleshooting the tracking system](tracking-problems.md)
 * [How motion controllers work](motion-controllers.md)
 * [Your Windows Mixed Reality home](your-mixed-reality-home.md)
 * [Using games and apps in Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)

@@ -2,11 +2,29 @@
 title: Set up Windows Mixed Reality
 description: How to set up your Windows Mixed Reality motion controllers, speech, and audio, and define your room boundary for a safe play space.
 ms.topic: article
-keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get started, setup, motion controller, controller, speech, audio, seated, standing, boundary
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get started, setup, motion controller, controller, speech, audio, seated, standing, boundary, graphics drivers, Microsoft Edge, chromium
 ---
 
 
 # Set up Windows Mixed Reality
+
+## Prequisites (Graphics Drivers)
+Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, please try these sources:
+* Check for the latest critical driver updates using Windows Update (**Start > Windows Settings > Update and Security > Check for Updates**)
+* Check for the latest optional driver updates: 
+    1. Right-click **Start > Device Manager**.
+    2. Expand **Display Adapters**.
+    3. Right-click on the graphics card and choose **Update Driver > Search automatically for updated driver software**.
+* The website for the manufacturer (OEM) of your PC
+* The website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
+
+### Graphics Driver Troubleshooting 
+If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
+
+This flow chart below helps further explain the best steps to acquire a WDDM 2.2 or later graphics driver.
+
+![Troubleshooting Flow Chart for Graphics Drivers](images/graphics-driver.jpg)
+
 
 ## Set up your motion controllers
 The first step is to set up your Motion Controllers. If you plan to use an Xbox gamepad or keyboard and mouse you can skip this step. 
@@ -139,13 +157,37 @@ This setting controls the behavior of Windows Mixed Reality in response to your 
 
 This setting is available on Windows 10, version 1903, or newer.
 
+## Installing Microsoft Edge (optional)
+
+To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, **upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge)** in Windows Mixed Reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
+
+>[!IMPORTANT]
+>The new Microsoft Edge launches with support for WebXR, the new standard for creating immersive web experiences for VR headsets. You will no longer be able to play WebVR experiences in Microsoft Edge if you install the new Microsoft Edge. 
+
+### Issues with the new Microsoft Edge in Windows Mixed Reality
+
+**Known issues resolved by the 2020-01 Cumulative update for Windows 10 Version 1903 (or later)**
+- Launching any Win32 app, including the new Microsoft Edge, causes the headset display to briefly freeze.
+- The Microsoft Edge tile disappears from the Windows Mixed Reality Start menu (you can find it in the “Classic apps” folder).
+- Windows from the previous Microsoft Edge are still placed around the mixed reality home, but cannot be used. Attempting to activate those windows launches Edge inside of the Desktop app.
+- Selecting a hyperlink in the mixed reality home launches a web browser on the desktop instead of the mixed reality home.
+- The WebVR Showcase app is present in the mixed reality home, despite WebVR no longer being supported.
+- General improvements to keyboard launch and visuals.
+
+**Additional known issues**
+-	Websites open in Windows Mixed Reality will be lost when Mixed Reality Portal closes, though the Microsoft Edge windows will remain where they were placed in the mixed reality home.
+-	Audio from Microsoft Edge windows is not spatialized.
+-	**Fixed in 360 Viewer extension version 2.3.8**: Opening a 360 video from YouTube in Windows Mixed Reality may result in the video being distorted in the headset. Restarting Edge should invisibly update the 360 Viewer extension to resolve this issue. You can confirm which version of the extension you have by entering `edge://system/` in the address bar and selecting the **Expand** button next to "extensions."
+-	During Windows Mixed Reality sessions, virtual monitors will appear as generic physical monitors in Settings > System > Display.
+
 ## Launching mixed reality after the first time
 
-Entering mixed reality a second time is as easy as putting the headset back on while its connected to your PC. You can also launch the Mixed Reality Portal app manually by opening it from the Start menu. Input and audio will route automatically to the headset when you put it on, or you can trigger this manually by pressing **Windows + Y** on your keyboard. 
+Entering mixed reality a second time is as easy as putting the headset back on while its connected to your PC. You can also launch the Mixed Reality Portal application manually by opening it from the Start menu. Input and audio will route automatically to the headset when you put it on, or you can trigger this manually by pressing **Windows + Y** on your keyboard. 
 
 ## See also
 
-* [Troubleshooting installation and setup](troubleshooting-windows-mixed-reality.md#installation-and-setup)
+* [Troubleshooting installation](Common-installation-error-messages.md)
+* [Troubleshooting setup](set-up-questions.md)
 * [Learn Mixed Reality](learn-mixed-reality.md)
 * [How motion controllers work](motion-controllers.md)
 * [How inside-out tracking works](tracking-system.md)
