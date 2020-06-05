@@ -57,7 +57,7 @@ This means that the application is not able to hit frame rate on your PC and the
 
 It is likely that the system is not able to render content to the headset, or the tracking system is experiencing problems. Check the following:
 1. Open "Task Manager" to make sure that your PC has enough compute resources (for example, you should have 80% of CPU free, 400MB of RAM, and disk IO should be below 80%).
-2. Make sure you have the latest graphics drivers for your hardware. See the [graphics driver section](set-up-windows-mixed-reality.md#prequisites-graphics-drivers).
+2. Make sure you have the latest graphics drivers for your hardware. See the [graphics driver section](before-you-start.md#make-sure-you-have-a-compatible-graphics-driver).
 3. Make sure the room has enough light.
 4. Unplug the device, close Windows Mixed Reality, and plug the device in again.
 5. Reboot your PC.
@@ -67,7 +67,7 @@ It is likely that the system is not able to render content to the headset, or th
 
 This could be caused by an application or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. Check the following:
 1. Open "Task Manager" and ensure that at least 20% of the CPU is free and 400MB of memory is available (for example, you should have 80% of CPU free, 400MB of RAM, and disk IO should be below 80%).
-2. Open "Event Viewer" and go to **Windows Logs > Application and Error** event entries around the time of the freeze. Check to see if any processes crashed.
+2. Go to **Event Viewer > Windows Logs > Application and Error** event entries around the time of the freeze. Check to see if any processes crashed.
 3. Reboot the PC if the problem persists.
 
 ## The world flipped upside down momentarily and returned to normal.

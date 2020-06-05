@@ -27,7 +27,7 @@ Mixed Reality Portal, the app that takes you through Windows Mixed Reality setup
 
 ## How do I choose between "Seated and standing" and "All experiences"?
 
-If you choose "Seated and standing", either during headset setup or later on, you'll be using your headset without a boundary. You can sit down or stand up, but you'll otherwise need to stay in one place, as you’ll have no boundary to help you avoid physical obstacles. Some apps might be designed to work with a boundary, so you might not be able to use them or you might not have the same experience if you use them without a boundary. See "What's a boundary and why should I create one?" below for more information.
+If you choose "Seated and standing", either during headset setup or later on, you'll be using your headset without a boundary. You can sit down or stand up, but you'll otherwise need to stay in one place, as you’ll have no boundary to help you avoid physical obstacles. Some apps might be designed to work with a boundary, so you might not be able to use them or you might not have the same experience if you use them without a boundary. See ["What's a boundary and why should I create one?"](boundary-questions.md#whats-a-boundary-and-why-should-i-create-one).
 
 If you choose "All experiences", you'll set up a boundary and you can use apps and experiences that work with a boundary as well as those that don't require one. 
 
