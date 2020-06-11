@@ -1,12 +1,12 @@
 ---
-title: Motion controllers
+title: Motion controller FAQs
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Motion controllers
 ---
 
 
-# Motion controller problems
+# Motion controller FAQs
 
 ## My Motion controllers aren't working properly.
 
@@ -21,7 +21,7 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
     * Lost tracking – Mixed Reality Portal can’t find your controllers. Hold them in front of your headset and restart them by pressing the Windows button for 4 seconds, then again for two seconds.
     * Low battery – Replace the controller batteries.
 7. If you're using an external USB Bluetooth Adapter, make sure it’s plugged into a black USB 2.0 port. It should also be plugged in as far away as possible from any other wireless transmitters or USB flash drives, including the USB connector for your headset. 
-8. Verify that there’s only one Bluetooth radio in the PC in the Device Manager by expanding the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there is no external antenna connected, it can cause tracking issues. Or use an external bluetooth dongle (USB), disable the internal Bluetooth capability, and retry pairing and connecting.
+8. Verify that there’s only one Bluetooth radio in the PC in the Device Manager by expanding the Bluetooth section and look for one adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there is no external antenna connected, it can cause tracking issues. Or use an external bluetooth dongle (USB), disable the internal Bluetooth capability, and retry pairing and connecting.
 9. If the Bluetooth settings window is open in the background, many extra calls are made to the Bluetooth protocol. Close it.
 10. Check the virtual battery level on the motion controller by turning the controllers over in mixed reality to see the battery icon. Replace the batteries if the icon is red. Battery reporting typically reports higher than the actual level immediately after connecting a controller so wait about 15 seconds before reading the level.
 11. Remove Bluetooth headphones and speakers in **Settings > Devices > Bluetooth & other devices**, and turn the devices off. Use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
@@ -62,7 +62,7 @@ Qualcomm (QCA) Bluetooth radio drivers prior to 10.0.0.448 may end up in bad sta
 
 Go to **Device Manager > Bluetooth > Marvell AVASTAR Bluetooth Radio Adapter > Properties > Driver** and make sure that you are using driver 15.68.9210.47 or later.
 
-## The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.).
+## The Mixed Reality Portal is working, but my controllers are tracking poorly (flying away, shaking, etc.).
 
 1. Some lighting conditions can affect tracking. Make sure that you are not exposed to direct sunlight and that you don't have a lot of point light sources visible to your HMD (for example, strings of lights like a christmas tree). 
 2. These symptoms are generally caused by failures to communicate between the controller and the host PC, and indicate poor Bluetooth link quality. See the [questions about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
@@ -78,15 +78,15 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 ## Motion controllers do not appear in SteamVR apps and games.
 
 If you're able to see your motion controllers in the Cliff House, but not in SteamVR apps and games, the motion controller model driver may not be installed properly. This driver is automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. To check that the motion controller model driver is correctly installed:
-1. Turn on both of your motion controllers, and make sure they show up as "Connected" in the Settings app under **Devices > Bluetooth & other devices**. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
-2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth".
+1. Turn on both of your motion controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+2. Go to **Device Manager > Bluetooth** and look for "Motion controller - Left" and "Motion controller - Right".
 3. Select either device and then go to **View > Devices by Connection**.
 4. You will now see a view of the motion controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons).
 5. Double click each of the "Motion Controller" devices and go to the "Driver" tab. Confirm that the Driver Version listed corresponds to one of [these Motion Controller model driver versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
 
 To manually download and install the Motion Controller model driver, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
 
-## The Motion controllers firmware update takes significantly longer than two minutes.
+## The controller firmware update takes significantly longer than two minutes.
 
 Check the [Bluetooth questions section](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology). Poor Bluetooth link quality usually causes these problems.
 
@@ -125,14 +125,14 @@ Motion controllers use the same Bluetooth technology found in many consumer devi
 * Right click on the Windows Start Menu and select "Device Manager". 
 * Expand the Bluetooth section and look for an adapter. 
 
-If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB Bluetooth 4.0 Low Energy Micro Adapter](https://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI/ref=sr-1-1?ie=UTF8&qid=1490148230&sr=8-1&keywords=plugable+broadcom).\
 ![Screenshot of an Example Device Manager. The Adapter is the Bluetooth radio.](images/devicemanagerbtadapterpic.png) 
 
+If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB Bluetooth 4.0 Low Energy Micro Adapter](https://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI/ref=sr-1-1?ie=UTF8&qid=1490148230&sr=8-1&keywords=plugable+broadcom).
 
-## My PC has Bluetooth technology but I'm having problems with my motion controllers.
+## My PC has Bluetooth technology but I'm having problems with my controllers.
 
 Motion controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use. Here are some things you can do to improve performance:
-* If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with the Plugable external Bluetooth Adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
+* If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with the Plugable external Bluetooth Adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right-click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
 * If you're using a USB Bluetooth Adapter, connect it to a USB 2.0 port (2.0 ports are black and aren’t labeled "SS"), if available. The port should be physically separated from:
     - the HMD USB connector
     - flash drives
@@ -144,13 +144,13 @@ Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer a
 * Disable "Show notification to connect using Swift Pair" setting under Bluetooth & other devices to reduce host radio scanning activity.
 * If you are using an internal Bluetooth card, please ensure you are using an external Bluetooth antenna or you may experience tracking issues. If this doesn’t work, use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
 * It is important that the device appears under the "Mouse, Keyboard & Pen" category in the Bluetooth settings. If under "Other devices" then unpair and pair the device.
-* Remove, un-pair, and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
+* Remove, unpair, and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
 
-## Should I pair my motion controllers to a Windows Mixed Reality headset that has built-in Bluetooth radio?
+## Should I pair my controllers to a Windows Mixed Reality headset that has built-in Bluetooth radio?
 
 Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio. These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios. 
 
-## How can I return my motion controllers to their factory pairing?
+## How can I return my controllers to their factory pairing?
 
 To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 

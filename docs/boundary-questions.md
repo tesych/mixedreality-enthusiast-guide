@@ -1,11 +1,11 @@
 ---
-title: Boundary questions
+title: Boundary FAQs
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Boundary
 ---
 
-# Boundary questions
+# Boundary FAQs
 
 ## What's a boundary and why should I create one?
 
@@ -32,19 +32,19 @@ If someone else uses your headset, make sure they understand the boundary and ho
 * Don’t cross back over your own path as you’re tracing.
 * If you get stuck in a corner, start over.
 
-## During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor".
+## During Mixed Reality start up, I'm stuck at "Turn your head side to side, and then at the floor".
 
-This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
+This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in Windows Mixed Reality home or you will be prompted to set up your boundary again.
 
 If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
 1. Check that the sticker has been removed from the proximity sensor. The proximity sensor is located inside the headset roughly where the center of your forehead would be.
 2. Check that your proximity sensor is toggling input to your headset: with your finger, cover and uncover the proximity sensor a few times to verify input is switching to the headset. You should see the **Windows Key + Y** banner at the top of your PC. You can manually switch input to the headset at any time by typing **Windows Key + Y** on your keyboard.
 
-## I see a message that says my boundary can't be found. What should I do?
+## A message says my boundary can't be found. What should I do?
 
 Windows Mixed Reality might have trouble identifying your existing boundary. You can create a new boundary or you can use your device in "Seated and standing" mode. 
 
-## I see a message that says “Lost tracking” or “We don’t have a boundary for this space”.
+## A message says “Lost tracking” or “We don’t have a boundary for this space”.
 
 You must create a new boundary. To do this:
 * Select **Start > Mixed Reality Portal**.
@@ -56,8 +56,10 @@ The boundary appears when you are close to it. If your boundary includes any sec
 * Select **Start > Mixed Reality Portal**.
 * Select "Run setup".
 
-## How can I turn off the boundary temporarily?
+## Can I turn off the boundary temporarily?
 
 * Select **Start > Mixed Reality Portal**.
 * Open "Menu". 
 * Turn "Boundary" to "Off". Make sure to stay in one place while the boundary is off.
+
+

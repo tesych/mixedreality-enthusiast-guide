@@ -1,17 +1,17 @@
 ---
-title: Headset Display Problems
+title: Headset Display FAQs
 description: Advanced Windows Mixed Reality troubleshooting for headset display issues that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support
 ---
 
-# Headset display problems
+# Headset display FAQs
 
 ## My headset displays are black.
 
 * Check your PC performance and stability:
     * Use the Task Manager to see if any processes are maxing out your PC's CPU, GPU, and/or disk drives.
-    * Look at the "Applications and System Event Logs" in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
+    * Check the “Application” and “System” logs in **Event Viewer > Windows Logs** to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
     * Check Windows Update to make sure your version of Windows is current. You may have to select "Check for Updates" multiple times.
 * Check app and game stability:
     * Ensure that your PC meets the minimum system requirements to run any app or game that is not performing correctly.    
@@ -36,9 +36,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
     * If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, you'll need to update your headset's firmware to version 1.0.8 or newer in order to use the HDMI port of your graphics card with the headset.
     * If you're using a Surface Book 2, please make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 * Check for a Mixed Reality headset hardware issue:
-    * To confirm or rule out hardware issues with your Mixed Reality headset, try connecting your Mixed Reality headset to another PC. 
+    * To confirm or rule out hardware issues with your headset, connect your Mixed Reality headset to another PC. 
     * Check for PC compatibility and setup issues first, as the symptoms are very similar.
-* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
+* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) next to them and are often colored blue.		
 
 If helpful, consult the headset black screen troubleshooting flow chart below.
 
@@ -46,7 +46,7 @@ If helpful, consult the headset black screen troubleshooting flow chart below.
 
 ## My headset display occasionally turns black after some use.
 
-* Try disabling any USB suspend or power saving features your PC might have. For example, [USB selective suspend](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-selective-suspend) in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
+* Try disabling any USB suspend or power saving features your PC might have. For example, **Settings > System > Power & Sleep > [USB selective suspend](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-selective-suspend)**, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
 * Temporarily disconnect any other USB devices and peripherals connected to your PC.
 * Check that your GPU driver version is recent, and check for any new performance and compatibility issues and regressions on new drivers.
 
@@ -57,7 +57,7 @@ If helpful, consult the headset black screen troubleshooting flow chart below.
 * Make sure your graphics driver is current.
 * Try the Mixed Reality headset on another PC.
 
-## My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes.
+## My headset displays turn blue and then Mixed Reality Portal reinitializes.
 
 This typically indicates an occasional USB controller reliability issue on your PC:
 * Try another USB port. Your PC may have multiple USB 3.0 controllers.
@@ -95,7 +95,7 @@ If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, 
 
 On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a period of time that appears to cause a previous frame to display after the next frame, resulting in double vision the faster you move your head in a yaw, pitch, or roll movement. The issue appears to be on drivers after Nvidia Graphics Driver 436.48.  Installing this driver will fix the issue until Nvidia solves the problem in the updated drivers. For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://www.nvidia.com/Download/driverResults.aspx/152007/en-us).
 
-## I’m experiencing discomfort when I use my headset.
+## I’m uncomfortable in my headset.
 For general info about comfort in Windows Mixed Reality, see [Windows Mixed Reality immersive headset health, safety, and comfort](https://support.microsoft.com/en-us/help/4039969/windows-10-mixed-reality-immersive-headset-health-safety-comfort). For details about your specific headset, check with the headset manufacturer.
 
 ## How can I get a clearer view in my headset?

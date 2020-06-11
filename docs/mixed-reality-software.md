@@ -41,14 +41,14 @@ This driver is automatically downloaded and installed via Windows Update, but do
 
    | Version          | Release Date          | Major changes                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
-   | [10.0.19041.264](https://www.microsoft.com/en-us/download/details.aspx?id=101260)  | May 27th, 2020      | Compatible with Windows 10, version 1903, and newer.<br/><ul><li>Windows Mixed Reality headset platform minor fixes and reliability improvements.</li></ul>  | 
+   | [10.0.19041.1009](https://www.microsoft.com/en-us/download/details.aspx?id=101260)  | May 7th, 2020      | Compatible with Windows 10, version 1903, and newer.<br/><ul><li>Windows Mixed Reality headset platform minor fixes and reliability improvements.</li></ul>  | 
 
 
 #### Windows 10, version 1903 (May 2019 Update) ####
 
    | Version          | Release Date          | Major changes                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
-   | [10.0.18362.1162](https://www.microsoft.com/en-us/download/details.aspx?id=100421)  | October 14th, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Windows Mixed Reality headset platform minor fixes.</li><li>Support for the new Microsoft Edge browser and Cortana app inside of mixed reality headsets.</li><li>Improved headset display settings.</li></ul>  | 
+   | [10.0.18362.1162](https://www.microsoft.com/en-us/download/details.aspx?id=100421)  | October 14th, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Windows Mixed Reality headset platform minor fixes.</li></ul>  | 
    | [10.0.18362.1062](https://www.microsoft.com/en-us/download/details.aspx?id=58492)  | June 24th, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Windows Mixed Reality headset platform and reliability improvements around sleeping computers and power state transitions.</li></ul>  | 
    | [10.0.18362.1024](https://www.microsoft.com/en-us/download/details.aspx?id=58225)  | May 1st, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Contains firmware update for 2017 Acer, Asus, Dell, Fujitsu, HP, Lenovo and Medion Windows Mixed Reality headsets. This firmware update improves headset display compatibility and reliability with certain graphics adapters and/or graphics drivers.</li><li>Windows Mixed Reality headset platform and reliability improvements</li></ul>  | 
 

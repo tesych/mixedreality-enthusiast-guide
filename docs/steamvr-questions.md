@@ -1,14 +1,14 @@
 ---
-title: SteamVR questions
+title: SteamVR FAQs
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, SteamVR
 ---
 
 
-# SteamVR questions
+# SteamVR FAQs
 
-## How can I play SteamVR games in my Windows Mixed Reality immersive headset?
+## How can I play SteamVR games in my Windows Mixed Reality headset?
 
 1. [Download and install SteamVR](https://steamcdn-a.akamaihd.net/client/installer/SteamWindowsMRInstaller.exe). The SteamVR tutorial should start automatically when you start SteamVR.
 2. Connect your headset to your PC and turn on your motion controllers.
@@ -50,7 +50,7 @@ If SteamVR is still crashing after updating, you may have two installations of W
 ## My controllers aren't working as expected in SteamVR.
 
 1. Close SteamVR.
-2. Return to Windows Mixed Reality Home and confirm that your controllers are working as expected.
+2. Return to Windows Mixed Reality home and confirm that your controllers are working as expected.
 3. Launch the SteamVR experience again and your controllers should be back to normal.
 4. If issues persist please file feedback using the [Windows Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app) under the Mixed Reality category and include SteamVR in the summary.
 

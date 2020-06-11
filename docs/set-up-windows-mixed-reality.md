@@ -141,7 +141,7 @@ This setting is available on Windows 10, version 1903, or newer.
 
 ## Installing Microsoft Edge 
 
-To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, **upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge)** in Windows Mixed Reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
+To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge) in Windows Mixed Reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
 
 >[!IMPORTANT]
 >The new Microsoft Edge launches with support for WebXR, the new standard for creating immersive web experiences for VR headsets. You will no longer be able to play WebVR experiences in Microsoft Edge if you install the new Microsoft Edge. 
@@ -159,8 +159,8 @@ To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, **up
 **Additional known issues**
 -	Websites open in Windows Mixed Reality will be lost when Mixed Reality Portal closes, though the Microsoft Edge windows will remain where they were placed in the mixed reality home.
 -	Audio from Microsoft Edge windows is not spatialized.
--	**Fixed in 360 Viewer extension version 2.3.8**: Opening a 360 video from YouTube in Windows Mixed Reality may result in the video being distorted in the headset. Restarting Edge should invisibly update the 360 Viewer extension to resolve this issue. You can confirm which version of the extension you have by entering `edge://system/` in the address bar and selecting the **Expand** button next to "extensions."
--	During Windows Mixed Reality sessions, virtual monitors will appear as generic physical monitors in Settings > System > Display.
+-	Fixed in 360 Viewer extension version 2.3.8: Opening a 360 video from YouTube in Windows Mixed Reality may result in the video being distorted in the headset. Restarting Edge should invisibly update the 360 Viewer extension to resolve this issue. You can confirm which version of the extension you have by entering `edge://system/` in the address bar and selecting the "Expand" button next to "extensions."
+-	During Windows Mixed Reality sessions, virtual monitors will appear as generic physical monitors in **Settings > System > Display**.
 
 ## Launching mixed reality after the first time
 

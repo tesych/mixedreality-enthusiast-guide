@@ -1,12 +1,12 @@
 ---
-title: Speech and audio problems
+title: Speech and audio FAQs
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Audio problems, Speech problems
 ---
 
 
-# Speech and audio problems
+# Speech and audio FAQs
 
 ## I can't hear any sound in my headset, or sound is playing through my computer instead of my headset.
 
@@ -15,7 +15,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 * If you take the headset off, flip the visor up, close the Mixed Reality Portal app, or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
 * Make sure your audio headset is plugged into the audio jack completely. The Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/microphone is plugged into the headset and not the PC.
-* The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset. To see it, right-click in the sound control panel and choose "Show disabled devices". The device name is "Realtek USB2.0 Audio" (this can be renamed in the "Properties" page). You can do this for both the playback and recording tabs.
+* The Sound Control Panel in **Settings > System > Sound** only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset. To see it, right-click in the Sound Control Panel and choose "Show disabled devices". The device name is "Realtek USB2.0 Audio" (this can be renamed in the "Properties" page). You can do this for both the playback and recording tabs.
 * If your audio is not working in Mixed Reality apps (for example, Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings > Update & Security > Windows Update > Check for Updates**.
 
 Note: Windows Mixed Reality spatial audio works best with headphones built into or connected directly to your immersive headset. PC speakers or headphones connected to the PC might not work well for spatial audio.
@@ -39,9 +39,9 @@ Microsoft does not recommend using Bluetooth audio headsets with Windows Mixed R
 
 The Windows Mixed Reality Home includes spatial sound (audio that sounds like it comes from the applications located in your Home). As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. Here are some potential reasons for unexpected sound directions:
 
-* If you open and play music from a background-capable music app (like Groove Music) in your Home and then open an immersive VR experience (like a game), because the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound. 
-* If you had Cortana enabled on your PC before using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality Home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones":
-    1. Go to the Desktop app window in Windows Mixed Reality Home.
+* If you open and play music from a background-capable music app (like Groove Music) in your Home and then open an immersive VR experience like a game, the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound. 
+* If you had Cortana enabled on your PC before using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones":
+    1. Go to the Desktop app window in Windows Mixed Reality home.
     2. Left-click the speaker icon on the desktop taskbar and select it from the list of audio devices.
     3. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
     4. Repeat these steps for all of your audio devices (endpoints).

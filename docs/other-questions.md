@@ -7,7 +7,22 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 # Other questions
 
-## My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck.
+## My graphics driver isn't supported (I am getting graphics driver failure errors).
+
+Search for and run "dxdiag":
+1.	If the result is “Basic Renderer”, the graphics driver is not installed. To fix this:
+    * Go to **Device Manager > Action > Scan for Hardware Changes**.
+    * Use Windows Update to update the driver.
+    * If this doesn't fix the problem, go to the manufacturer’s website and install the latest driver update. 
+    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact support.
+2.	If you get a “WDDM 2.1” or lower version, the graphics driver is installed but it might not be the latest version. To get the latest version:
+    * Use Windows Update to update the driver.
+    * If that update doesn't fix the problem, go to the manufacturer’s website and install the latest driver update. 
+    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact support.
+    
+If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
+
+## My Samsung Odyssey or Odyssey+ headset firmware update is stuck.
 
 Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
 
@@ -66,7 +81,7 @@ Windows Mixed Reality is available in the following languages:
 * Spanish (Mexico)
 * Spanish (Spain)
 
-If your PC is set to a different language, you can still use Windows Mixed Reality, but the interface will appear in English (United States), and speech commands and dictation won't be available. The Windows Mixed Reality onscreen keyboard is English (United States) only. To enter text in another language, use a physical keyboard connected to your PC. You can also use dictation in one of the supported Windows Mixed Reality languages listed above—just select microphone on the onscreen keyboard.
+You can use Windows Mixed Reality if your PC is set to a different language, but the interface will appear in English (United States), and speech commands and dictation won't be available. The Windows Mixed Reality onscreen keyboard is English (United States) only. To enter text in another language, use a physical keyboard connected to your PC. You can also use dictation in one of the supported Windows Mixed Reality languages listed above—just select microphone on the onscreen keyboard.
 
 Windows Mixed Reality is also available in the following languages without speech commands or dictation features:
 * Chinese Traditional (Taiwan and Hong Kong)
@@ -92,14 +107,14 @@ This means that some files, including information about your environment, might 
 
 To uninstall Windows mixed reality using these commands:
 1. Restart your PC.
-2. In the **Search** box, type "regedit" and then select **Yes**.
+2. In the **Search** box, type "regedit" and then select "Yes".
 3. Remove the following registry values:
    <ul>
-    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete <b>FirstRunSucceeded</b>.</li> 
-    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic\SpeechAndAudio</b>, then delete <b>PreferDesktopSpeaker</b> and <b>PreferDesktopMic</b>.</li> 
-    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore&gt; Settings\Holographic</b>, then delete <b>DisableSpeechInput</b>. Note:the registry items in HHKEY_CURRENT_USER must be deleted for every user account on the PC that has used Windows Mixed Reality.</li> 
-    <li><b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PerceptionSimulationExtensions</b>, then delete <b>DeviceID</b> and <b>Mode</b>.</li> 
-    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete <b>OnDeviceLearningCompleted</b>.</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete "FirstRunSucceeded".</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic\SpeechAndAudio</b>, then delete "PreferDesktopSpeaker" and "PreferDesktopMic".</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore&gt; Settings\Holographic</b>, then delete "DisableSpeechInput". Note:the registry items in HHKEY_CURRENT_USER must be deleted for every user account on the PC that has used Windows Mixed Reality.</li> 
+    <li><b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PerceptionSimulationExtensions</b>, then delete "DeviceID" and "Mode".</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete "OnDeviceLearningCompleted".</li> 
    </ul>
 4. Remove the following registry keys: 
    <ul>
@@ -107,9 +122,9 @@ To uninstall Windows mixed reality using these commands:
    <li> <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
    <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\HolographicPreferences</b></li><br/></ul>
 5. Close the Registry Editor.
-6. Navigate to **C:\Users\user name\AppData\Local\Packages\Microsoft.Windows.HolographicFirstRun_cw5n1h2txyewy\LocalState**, and then delete **RoomBounds.json**. Repeat this for each user who has used Windows Mixed Reality.
-7. Open admin cmd prompt and navigate to **C:\ProgramData\WindowsHolographicDevices\SpatialStore\HoloLensSensors**. Then delete the contents of the **HeadTracking data** folder (but not the folder itself).
-8. Type "powershell" in the **Search box**, right-click **Windows PowerShell**, and then select **Run as administrator**.
+6. Navigate to **C:\Users\user name\AppData\Local\Packages\Microsoft.Windows.HolographicFirstRun_cw5n1h2txyewy\LocalState**, and then delete "RoomBounds.json". Repeat this for each user who has used Windows Mixed Reality.
+7. Open admin cmd prompt and navigate to **C:\ProgramData\WindowsHolographicDevices\SpatialStore\HoloLensSensors**. Then delete the contents of the "HeadTracking data" folder (but not the folder itself).
+8. Type "powershell" in the **Search box**, right-click "Windows PowerShell", and then select "Run as administrator".
 9. In Windows PowerShell, do the following:
    <ul>
    <li>Copy and paste the following at the command prompt, then press Enter: <b>Dism /online /Get-Capabilities</b></li> 

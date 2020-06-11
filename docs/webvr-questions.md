@@ -1,12 +1,12 @@
 ---
-title: WebVR questions
+title: WebVR FAQs
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, WebVR
 ---
 
 
-# WebVR questions
+# WebVR FAQs
 
 ## Why can’t I see my controllers when viewing VR content from Edge?
 

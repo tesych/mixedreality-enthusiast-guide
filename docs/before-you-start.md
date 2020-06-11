@@ -63,21 +63,14 @@ Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG hea
 Check that your PC is connected to the Internet. You will need to download drivers and some additional software to get Windows Mixed Reality up and running.  If your Wi-Fi network connection is set to metered, change it to unmetered. [Learn more](https://support.microsoft.com/en-us/help/4028458/windows-metered-connections-in-windows-10)
 
 ## Make sure you have a compatible graphics driver
-Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, please try these sources:
+Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, try these sources:
 * Check for the latest critical driver updates using Windows Update (**Start > Windows Settings > Update and Security > Check for Updates**)
 * Check for the latest optional driver updates: 
     1. Right-click **Start > Device Manager**.
     2. Expand **Display Adapters**.
     3. Right-click on the graphics card and choose **Update Driver > Search automatically for updated driver software**.
-* Check the website for the manufacturer (OEM) of your PC
-* Check the website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
-
-### Graphics Driver Troubleshooting 
-If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
-
-This flow chart below helps further explain the best steps to acquire a WDDM 2.2 or later graphics driver.
-
-![Troubleshooting Flow Chart for Graphics Drivers](images/graphics-driver.jpg)
+* Check the website for the manufacturer (OEM) of your PC.
+* Check the website for the manufacturer of the graphics card in your PC (for example, AMD, Intel, or NVIDIA).
 
 ## Make sure that you have a large, open space
 
@@ -87,7 +80,7 @@ If you want to move around while using Windows Mixed Reality you'll need to have
 If you select Seated and standing , you'll be using your headset without a boundary. This means you'll need to stay in one spot when using the headset, so that you can avoid physical obstacles and tripping hazards. You can sit down or stand up, but you shouldn't move around. Some apps might be designed to work with a boundary, so you might not be able to use them, or might not have the same experience, if you use them without a boundary.
 
 ### All experiences (boundary)
-If you choose "All experiences," you'll set up a boundary, and you will be able to move around and use apps and experiences that work with a boundary as well as those that don't require one. You'll need to prepare your space to make sure there are no obstacles, hazards, or fragile items in the area you’ll be using (including above your head). Don’t set up at the top of a staircase or under an extra-low ceiling fan. Remove breakables and obstacles from the area, and make sure that you and anyone who uses your headset reads and understands the safety guidelines.
+If you choose "All experiences," you'll set up a boundary, and you will be able to move around and use apps and experiences that work with a boundary as well as those that don't require one. You'll need to prepare your space to make sure there are no obstacles, hazards, or fragile items in the area you’ll be using (including above your head). Don’t set up at the top of a staircase or under an extra-low ceiling fan. Remove breakables and obstacles from the area, and make sure that you and anyone who uses your headset reads and understands the [safety guidelines](https://support.microsoft.com/en-us/help/4039969/windows-10-mixed-reality-immersive-headset-health-safety-comfort).
 
 
 

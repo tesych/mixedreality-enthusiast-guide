@@ -21,7 +21,7 @@
 
 ## Troubleshooting FAQs
 ### [Installation errors](Common-installation-error-messages.md)
-### [Set up](set-up-questions.md)
+### [Setup](set-up-questions.md)
 ### [Boundaries](boundary-questions.md)
 ### [Error codes](error-codes.md)
 ### [Headset connectivity](headset-connectivity-issues.md)
