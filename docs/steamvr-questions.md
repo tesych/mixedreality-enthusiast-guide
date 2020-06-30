@@ -17,7 +17,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 ## A message says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update" or "Windows Developer Mode Required".
 
-1. Make sure your PC is running the latest version of Windows 10. To check this, go to **Settings > System > About**. Under "Windows specifications", make sure "OS Build" is 16299.64 or greater.
+1. Make sure your PC is running the latest version of Windows 10. Go to **Settings > System > About**, and under "Windows specifications", make sure "OS Build" is 16299.64 or greater.
 2. Make sure you don’t have any updates waiting to download or install. Go to **Settings > Update & Security > Windows Update** and select "Check for updates". You may have to check multiple times until no further updates are available and then restart your PC.
 
 ## SteamVR is crashing after updating Windows.
@@ -50,9 +50,9 @@ If SteamVR is still crashing after updating, you may have two installations of W
 ## My controllers aren't working as expected in SteamVR.
 
 1. Close SteamVR.
-2. Return to Windows Mixed Reality home and confirm that your controllers are working as expected.
+2. Return to Windows Mixed Reality home and confirm that your controllers are working.
 3. Launch the SteamVR experience again and your controllers should be back to normal.
-4. If issues persist please file feedback using the [Windows Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app) under the Mixed Reality category and include SteamVR in the summary.
+4. If issues persist, file feedback using the [Windows Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app) under the Mixed Reality category and include SteamVR in the summary.
 
 Note that you'll use your motion controllers differently in different games. Here are a few basics to help you get started:
 * To open the Steam dashboard, press straight down on the left thumbstick.
@@ -67,7 +67,7 @@ Start the game with your controllers off and then turn on the left controller, f
 1. Make sure that your PC meets the specifications for SteamVR in Windows Mixed Reality and for the SteamVR game you are playing.
 2. In Mixed Reality Portal on your desktop, select "Pause" to stop desktop preview.
 3. Go to **Settings > System > About** and under "Windows specifications", make sure "OS Build" is 16299.64 or later.
-4. Make sure your PC has the latest graphics drivers.
+4. Make sure your PC has the latest graphics drivers ("Check for Updates" in Windows Update).
 5. Check "Task Manager" to see what other processes might be consuming resources on your PC.
 6. Check to see if Steam is downloading a game in the background. This can consume resources and make games run poorly.
 7. A small class of apps that do not have a visible window (for example, SteamVR Home), have a known performance issue. The vast majority of apps do not fall into this category, and a fix will be available in a future update.

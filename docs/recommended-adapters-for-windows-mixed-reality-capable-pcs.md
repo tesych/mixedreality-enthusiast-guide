@@ -9,7 +9,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, adapter
 > [!NOTE]
 > We will be updating, making additions to and may be revising these Windows Mixed Reality PC adapter recommendations. Please check back regularly for the latest.
 
-Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) may not have the full-sized HDMI and USB 3.0 ports needed to connect your immersive headset. If that's the case, you'll need adapters to connect your headset. Below you'll find a list of adapter types you may need, and some recommendations on specific adapter models.
+Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) may not have the full-sized HDMI and USB 3.0 ports needed to connect your immersive headset. If that's the case, you'll need adapters to connect your headset. Some adapters may also require the addition of a coupler to connect to your PC and/or the headset cable. Below you'll find a list of adapter types you may need, and some recommendations on specific adapter models.
 
 ## Recommended display adapters
 
@@ -251,11 +251,12 @@ These tables will help you determine if you'll need display or USB adapters for 
 
 ## Windows Mixed Reality compatible USB Bluetooth adapters
 
+If your headset was released after 2018, adapters are not needed and controllers pair to the headset.
+
+Devices shipped in 2017 or earlier need an adapter for controllers. If your PC doesn't include Bluetooth for pairing [Windows Mixed Reality motion controllers](motion-controllers.md), you can use an adapter like the Plugable USB Bluetooth 4.0 Low Energy Micro Adapter.
+
 > [!NOTE]
 > Microsoft does not manufacture, test, certify, nor guarantee the functionality, reliability or quality of any adapter. For any questions, concerns or issues with any adapter, you should contact the seller or manufacturer of your adapter.
-
-If your PC doesn't include Bluetooth for pairing [Windows Mixed Reality motion controllers](motion-controllers.md), you might try:
-* Plugable USB Bluetooth 4.0 Low Energy Micro Adapter
 
 ## Using external USB 3.0 hubs with Windows Mixed Reality headsets
 
@@ -268,5 +269,5 @@ Please also note the following guidance for use of an external USB 3.0 hub:
 * The Plugable 10-Port USB 3.0 SuperSpeed Hub with 48W Power Adapter is known to work well with Windows Mixed Reality headsets and most PCs.
 
 ## See also
-* [Troubleshooting headset connectivity](headset-connectivity-issues.md)
+* [Troubleshooting headset connectivity](headset-connectivity.md)
 * [Windows Mixed Reality minimum PC hardware compatibility guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)

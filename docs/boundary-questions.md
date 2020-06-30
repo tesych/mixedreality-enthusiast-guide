@@ -9,16 +9,16 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 ## What's a boundary and why should I create one?
 
-A boundary defines the area in which you can move around while you're wearing your Windows Mixed Reality immersive headset. Because you can't see your surroundings while you're using your headset, it's important to create a boundary to help you avoid obstacles. The boundary looks like a white outline inside mixed reality and appears when you come close to it. When you see it, slow your movements, and avoid crossing the boundary or extending your limbs beyond it.
+A boundary defines the area you can move around in while wearing your Windows Mixed Reality headset. It's important to create a boundary to help you avoid the obstacles you can't see while in headset. The boundary looks like a white outline inside mixed reality and appears when you come close to it. When you see it, slow your movements, and avoid crossing the boundary or extending your limbs beyond it.
 
-The area inside the boundary should be free of furniture, low-hanging light fixtures, ceiling fans, etc. so you won't bump into or trip over anything. [Learn about health and safety in Windows Mixed Reality](https://support.microsoft.com/en-us/help/4039969/windows-10-mixed-reality-immersive-headset-health-safety-comfort).
+The area inside the boundary should be free of furniture, low-hanging light fixtures, ceiling fans, etc. so you won't bump into or trip over anything. [Learn about health and safety in Windows Mixed Reality](HMD-health-safety-comfort.md).
 
 ## How do I create a boundary?
 
-When you first set up your headset, the setup app (Mixed Reality Portal) will take you through the steps to create a boundary. But you can create one at any time. To do this:
+When you first set up your headset, the setup app (Mixed Reality Portal) will take you through the steps to create a boundary. But you to create one at any time:
 1. Select **Start > Mixed Reality Portal** on your desktop. 
 2. Open "Menu".
-3. Select "Run setup" to create a new boundary.
+3. Select "Setup up room boundary" to create a new boundary.
 
 If someone else uses your headset, make sure they understand the boundary and how to use it. If you move your headset to a new location, you'll need to set up a new boundary that works for that space.
 
@@ -32,13 +32,28 @@ If someone else uses your headset, make sure they understand the boundary and ho
 * Don’t cross back over your own path as you’re tracing.
 * If you get stuck in a corner, start over.
 
-## During Mixed Reality start up, I'm stuck at "Turn your head side to side, and then at the floor".
+## The system cannot find the boundary and I'm being presented with setup UI.
 
-This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in Windows Mixed Reality home or you will be prompted to set up your boundary again.
+This means that the tracking system was unable to recognize your environment. If you are in a new environment, you must set up the [boundary](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality#set-up-your-room-boundary). If you have previously used the device in this environment and set up a boundary:
+* Make sure the room has enough light.
+* Make sure you have worn the device and looked around the room. The device must observe your environment to know where it is. It will not find your bounds if it is sitting on a desk or table.
+* Unplug the device, close Windows Mixed Reality, and plug it in again.
+* If something in the environment has changed, the device may no longer recognize it. Set up a new boundary.
 
-If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
-1. Check that the sticker has been removed from the proximity sensor. The proximity sensor is located inside the headset roughly where the center of your forehead would be.
-2. Check that your proximity sensor is toggling input to your headset: with your finger, cover and uncover the proximity sensor a few times to verify input is switching to the headset. You should see the **Windows Key + Y** banner at the top of your PC. You can manually switch input to the headset at any time by typing **Windows Key + Y** on your keyboard.
+If these steps do not resolve the problem, delete your environment data and set up the boundary again.
+
+## The system is presenting me with UI that asks me to choose setup for all experiences or seated/standing, and I see my bounds.
+
+The device is taking too long to find the bounds. You can bypass this message by choosing the option to use a boundary and you will be taken to your Windows Mixed Reality home with your bounds present.
+
+## I often see a message saying "I've lost my bounds".
+
+The tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer display your bounds and the headset switches to 3DOF to keep you from to bumping into things in the real world until it locates your bounds again. To fix this:
+1. Make sure that the room has enough light.
+2. Rerun the setup if you recently redecorated or remodeled the room.
+3. Unplug the device, close Windows Mixed Reality, and plug it in again.
+4. Clear your environment data and set up the device again.
+5. If the message persists, contact customer support.
 
 ## A message says my boundary can't be found. What should I do?
 
@@ -47,14 +62,16 @@ Windows Mixed Reality might have trouble identifying your existing boundary. You
 ## A message says “Lost tracking” or “We don’t have a boundary for this space”.
 
 You must create a new boundary. To do this:
-* Select **Start > Mixed Reality Portal**.
-* Select "Run setup".
+1. Select **Start > Mixed Reality Portal**.
+2. Open "Menu".
+3. Select "Setup up room boundary".
 
 ## The boundary is always visible. How can I make it go away?
 
 The boundary appears when you are close to it. If your boundary includes any sections that have a narrow or irregular shape, you might end up getting close to it, and causing it to appear, more often than you’d like. To fix this, try creating your boundary again using a larger and more regular shape. To do this:
-* Select **Start > Mixed Reality Portal**.
-* Select "Run setup".
+1. Select **Start > Mixed Reality Portal**.
+2. Open "Menu".
+3. Select "Setup up room boundary".
 
 ## Can I turn off the boundary temporarily?
 

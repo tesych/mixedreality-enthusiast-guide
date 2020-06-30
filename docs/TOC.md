@@ -4,7 +4,6 @@
 ### [Frequently asked questions](before-you-buy-faqs.md)
 ### [Recommended adapters](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 ### [Minimum PC hardware guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
-### [Windows Mixed Reality PC Check app](windows-mixed-reality-pc-check-app.md)
 
 ## Getting started
 ### [Before you start](before-you-start.md)
@@ -20,17 +19,17 @@
 ### [WebVR](webvr.md)
 
 ## Troubleshooting FAQs
-### [Installation errors](Common-installation-error-messages.md)
+### [Installation errors](installation_errors.md)
 ### [Setup](set-up-questions.md)
 ### [Boundaries](boundary-questions.md)
 ### [Error codes](error-codes.md)
-### [Headset connectivity](headset-connectivity-issues.md)
-### [Headset display](headset-display-problems.md)
+### [Headset connectivity](headset-connectivity.md)
+### [Headset display](headset-display.md)
 ### [Motion controllers](motion-controller-problems.md)
 ### [Performance](performance-questions.md)
-### [Speech and audio](speech-n-audio-problems.md)
+### [Speech and audio](speech-and-audio.md)
 ### [SteamVR](steamvr-questions.md)
-### [Tracking system](tracking-problems.md)
+### [Tracking system](tracking.md)
 ### [WebVR](webvr-questions.md)
 ### [Other questions](other-questions.md)
 
@@ -39,3 +38,4 @@
 ### [Mixed Reality software overview and release history](mixed-reality-software.md)
 ### [How motion controllers work](motion-controllers.md)
 ### [How inside-out tracking works](tracking-system.md)
+### [Headset health, safety, and comfort](HMD-health-safety-comfort.md)

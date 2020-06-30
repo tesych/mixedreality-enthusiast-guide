@@ -67,7 +67,7 @@ Windows Mixed Reality motion controllers offer precise and responsive tracking o
 
 ### How can I connect my controller to another PC?
 
-*A: Currently controllers support pairing with a single PC at this time. Follow the instructions on [motion controller setup](set-up-windows-mixed-reality.md#set-up-your-motion-controllers) to pair your controllers. Before pairing remember to remove existing paired controllers from Bluetooth & other devices within Settings so that Windows will discover the controllers.*
+*A: Currently controllers support pairing with a single PC at this time. Follow the instructions on [motion controller setup](set-up-windows-mixed-reality.md#if-you-need-to-pair-your-motion-controllers-with-your-pc) to pair your controllers. Before pairing remember to remove existing paired controllers from Bluetooth & other devices within Settings so that Windows will discover the controllers.*
 
 ### How can I check battery level?
 

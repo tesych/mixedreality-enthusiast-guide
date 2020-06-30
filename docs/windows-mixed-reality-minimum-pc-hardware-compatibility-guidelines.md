@@ -8,7 +8,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Ultra, 
 
 # Minimum PC hardware guidelines
 
-For the best experience with Windows Mixed Reality you want to start with a new [Windows Mixed Reality-ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs) or a Windows Mixed Reality-compatible PC that can provide Windows Mixed Reality Ultra experiences. Windows Mixed Reality Ultra provides crisper visuals at higher refresh rates, more apps and experiences including the most graphics-intensive games, mirroring of your Windows Mixed Reality experience on your desktop and the ability to record and share (photo and video) your experiences with others. 
+For the best experience with Windows Mixed Reality, start with a new [Windows Mixed Reality-ready PC](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines) or a Windows Mixed Reality-compatible PC that can provide Windows Mixed Reality Ultra experiences. Windows Mixed Reality Ultra provides crisper visuals at higher refresh rates, more apps and experiences including the most graphics-intensive games, mirroring of your Windows Mixed Reality experience on your desktop and the ability to record and share (photo and video) your experiences with others. 
 
 To see if your PC can run Windows Mixed Reality review the hardware guidelines below and run the [Mixed Reality Portal App](https://www.microsoft.com/store/apps/9NG1H8B3ZC7M).
 
@@ -45,7 +45,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 </tr>
 </table>
 
- [Get help with Mixed Reality Portal's PC Check results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
+ [Get help with Mixed Reality Portal results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
 
 ## Compatibility guidelines
 > [!IMPORTANT]
@@ -53,29 +53,32 @@ You will then get an analysis of your PC against the required hardware, drivers,
 
 <table>
 <tr>
-<th style="width:20%"></th><th style="vertical-align: middle; text-align: center; width:40%">Windows Mixed Reality Ultra PCs</th><th style="vertical-align: middle; text-align: center; width:40%">Windows Mixed Reality PCs</th>
+<th style="width:10%"></th><th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality Ultra PCs</th><th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality PCs</th><th style="vertical-align: middle; text-align: center; width:30%">HP Reverb G1/G2</th>
 </tr><tr>
-<td style="vertical-align: middle">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) or later - Home, Pro, Business, Education.<br/>    (<b>Note</b>: Not supported on N versions or Windows 10 Pro in S Mode)</td>
+<td style="vertical-align: middle">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) or later - Home, Pro, Business, Education.<br/>    (<b>Note</b>: Not supported on N versions or Windows 10 Pro in S Mode)</td><td style="vertical-align: middle; text-align: center;">Windows 10 May 2019 update or later</td>
 </tr><tr>
-<td style="vertical-align: middle">Processor</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 4590 (4th generation), quad-core (or better) <br>AMD Ryzen 5 1400 3.4Ghz (desktop), quad-core (or better)</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 7200U (7th generation mobile), dual-core with Intel&#174; Hyper-Threading Technology enabled (or better)</td>
+<td style="vertical-align: middle">Processor</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 4590 (4th generation), quad-core (or better) <br>AMD Ryzen 5 1400 3.4Ghz (desktop), quad-core (or better)</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 7200U (7th generation mobile), dual-core with Intel Hyper-Threading Technology enabled (or better)</td><td style="vertical-align: middle; text-align: center;">Intel Core i5, i7, Intel Xeon E3-1240 v5, equivalent or better. AMD Ryzen 5 equivalent or better.</td>
 </tr><tr>
-<td style="vertical-align: middle">RAM</td><td style="vertical-align: middle; text-align: center;">8GB DDR3 (or better)</td><td style="vertical-align: middle; text-align: center;">8GB DDR3 dual channel (or better)</td>
+<td style="vertical-align: middle">RAM</td><td style="vertical-align: middle; text-align: center;">8GB DDR3 (or better)</td><td style="vertical-align: middle; text-align: center;">8GB DDR3 dual channel (or better)</td><td style="vertical-align: middle; text-align: center;">8 GB RAM or more </td>
 </tr><tr>
-<td style="vertical-align: middle">Free disk space</td><td colspan="2" style="vertical-align: middle; text-align: center;">At least 10 GB</td>
+<td style="vertical-align: middle">Free disk space</td><td colspan="3" style="vertical-align: middle; text-align: center;">At least 10 GB</td>
 </tr><tr>
-<td style="vertical-align: middle">Graphics Card</td><td style="vertical-align: middle; text-align: center;"><li>NVIDIA GTX 1060 (or greater) DX12-capable discrete GPU</li> <br><li>AMD RX 470/570 (or greater) DX12-capable discrete GPU </li><br><b>Note:</b> GPU must be hosted in a PCIe 3.0 x4+ Link slot</td><td style="vertical-align: middle; text-align: center;"><li>Integrated Intel&#174; HD Graphics 620 (or greater) DX12-capable integrated GPU <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">(check if your model is greater)</a></li> <br><li>NVIDIA MX150 (or greater) discrete GPU</li><br><li>965M (or greater) DX12-capable discrete GPU</li><br><li>AMD Radeon RX 460/560</li></td>
+<td style="vertical-align: middle">Graphics Card</td><td style="vertical-align: middle; text-align: center;"><li>NVIDIA GTX 1060 (or greater) DX12-capable discrete GPU</li> <br><li>AMD RX 470/570 (or greater) DX12-capable discrete GPU </li><br><b>Note:</b> GPU must be hosted in a PCIe 3.0 x4+ Link slot</td><td style="vertical-align: middle; text-align: center;"><li>Integrated Intel HD Graphics 620 (or greater) DX12-capable integrated GPU <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">(check if your model is greater)</a></li> <br><li>NVIDIA MX150 (or greater) discrete GPU</li><br><li>965M (or greater) DX12-capable discrete GPU</li><br><li>AMD Radeon RX 460/560</li></td><td style="vertical-align: middle; text-align: center;">DX12 capable graphics cards <br></br>Consumer (full resolution):<li>GTX 1080, 1080ti</li><li>RTX 2060 super, 2070, 2070 super, 2080, 2080super, 2080ti </li><li>RX 5700, RX 5700 XT, Radeon 7 </li>Workstation (full resolution):<li>P5200</li><li>RTX 4000, 5000, 6000, 8000 </li><li>AMD Radeon Pro WX 8200, 9200 </li><li>W5700, WX 7100 </li><br></br>Consumer (half resolution):<li>GTX 1060, 1660, 1660ti, 1070 </li><li>RTX 2060 </li><li>AMD RX 580, 5500XT, 590, 5600 XT, Vega 56, Vega 64 </li>Enterprise (half resolution):<li>P3200, P4000, P4200, P5000 </li><li>RTX 3000 </li></td>
 </tr><tr>
-<td style="vertical-align: middle">Graphics Driver</td><td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2</td><td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2</td>
+<td style="vertical-align: middle">Graphics Driver</td><td colspan="3" td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2</td>
 </tr><tr>
-<td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">Graphics display port</a></td><td style="vertical-align: middle; text-align: center;">HDMI 2.0 or DisplayPort 1.2</td><td style="vertical-align: middle; text-align: center;">HDMI 1.4 or DisplayPort 1.2</td>
+<td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">Graphics display port</a></td><td style="vertical-align: middle; text-align: center;">HDMI 2.0 or DisplayPort 1.2</td><td style="vertical-align: middle; text-align: center;">HDMI 1.4 or DisplayPort 1.2</td><td style="vertical-align: middle; text-align: center;">DisplayPort 1.3 </td>
 </tr><tr>
-<td style="vertical-align: middle">Display</td><td colspan="2" style="vertical-align: middle; text-align: center;">Connected external or integrated VGA (800x600) display (or better)</td>
+<td style="vertical-align: middle">Display</td><td colspan="3" style="vertical-align: middle; text-align: center;">Connected external or integrated VGA (800x600) display (or better)</td>
 </tr><tr>
-<td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">USB connectivity</a></td><td colspan="2" style="vertical-align: middle; text-align: center;">USB 3.0 Type-A or Type-C</td>
+<td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">USB connectivity</a></td><td colspan="2" style="vertical-align: middle; text-align: center;">USB 3.0 Type-A or Type-C</td><td style="vertical-align: middle; text-align: center;">1x USB 3.0 Type C </td>
 </tr><tr>
-<td style="vertical-align: middle">Bluetooth connectivity (for <a href="Motion-controllers.md">motion controllers</a>)</td><td colspan="2" style="vertical-align: middle; text-align: center;">Bluetooth 4.0</td>
+<td style="vertical-align: middle">Bluetooth connectivity (for <a href="Motion-controllers.md">motion controllers</a>)</td><td colspan="3" style="vertical-align: middle; text-align: center;">Bluetooth 4.0</td>
 </tr><tr>
-<td style="vertical-align: middle">Expected headset framerate</td><td style="vertical-align: middle; text-align: center;">90 Hz</td><td style="vertical-align: middle; text-align: center;">60 Hz</td>
+<td style="vertical-align: middle">Expected headset framerate</td><td style="vertical-align: middle; text-align: center;">90 Hz</td><td style="vertical-align: middle; text-align: center;">60 Hz</td><td style="vertical-align: middle; text-align: center;">90 Hz</td>
+</tr>
+<tr>
+<td style="vertical-align: middle">Power</td><td style="vertical-align: middle; text-align: center;">USB 3.0 (Type A) ports</td><td style="vertical-align: middle; text-align: center;">USB 3.0 (Type A) ports<td style="vertical-align: middle; text-align: center;">USB Type C with power delivery or included power adapter </td>
 </tr>
 </table>
 

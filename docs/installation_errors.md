@@ -25,26 +25,28 @@ You are probably on an enterprise managed network and your organization is using
 
 ## "We couldn't download the mixed reality software" or "Hang tight while we do some downloading"
 
-* Sometimes a pending update can block the Mixed Reality Software download. Go to **Settings > Update & security > Windows Update** and make sure Windows Update is turned on. Then download and install any updates that are waiting to be installed. If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors).
-* Make sure your PC is connected to the internet and has at least 2GB of free storage space. Check your network status at: **Settings > Network & Internet > Status**. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
+* Sometimes a pending update can block the Mixed Reality Software download. Go to **Settings > Update & security > Windows Update** and make sure Windows Update is on. Then download and install any waiting updates. If you get a Windows Update error, get help [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors).
+* Make sure your PC is connected to the internet and has at least 2GB of free storage space. Check your network status at: **Settings > Network & Internet > Status**. If you can't connect to the internet, get help [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues).  
 * Restart your PC and try again. 
 
-If the previous solutions don't work, try:
+If these solutions don't work, try:
 * If your Wi-Fi network connection is set to [metered](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq), change it to unmetered. To turn off a metered connection, go to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection** and select "Off".  
 * If you recently installed an update, it can cause problems. We don’t recommend that you remove any installed updates, especially security updates which keep your PC safe, but sometimes removing the most recent update can help determine the source of the problem. To do this: 
     * Go to **Settings > Update & Security > View Installed Update History > Uninstall Updates**
     * Select the last update installed and "Uninstall".
     * When prompted "Are you sure you want to uninstall this update?" answer "Yes". If you get an error when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors). 
     * Restart your PC and try again. 
-    * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support. 
+    * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the updates and contact Windows Support. 
 
 ## "Something went wrong, and we couldn't start Windows Mixed Reality"
-* Unplug both cables of your headset from the PC.
+To get more information about a specific error code, look [here](error-codes.md). You can also try to:
+
+* Unplug both headset cables from the PC.
 * Restart the PC.
-* Go to **Settings > Update & security > Windows Update** and make sure that Windows Update is turned on. Then download and install any waiting updates.
+* Go to **Settings > Update & security > Windows Update** and make sure that Windows Update is turned on. Download and install any waiting updates.
 * Reconnect your headset to the PC and then try setup again.
 
-If the above steps don’t work, try uninstalling and then reinstalling Windows Mixed Reality:
+If these steps don’t work, uninstall and then reinstall Windows Mixed Reality:
 * Go to **Settings > Mixed reality > Uninstall** and select "Uninstall". 
 * Restart your PC. 
 * To start the setup process again, just plug your headset into your PC.

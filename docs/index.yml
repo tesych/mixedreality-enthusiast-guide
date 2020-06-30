@@ -49,7 +49,7 @@ additionalContent:
         # Card
         - title: Troubleshooting
           summary: A-to-Z troubleshooting on all areas of Windows Mixed Reality
-          url: troubleshooting-windows-mixed-reality.md
+          url: installation_errors.md
         # Card
         - title: Feedback
           summary: Collect additional articles diving deeper on Windows Mixed Reality, from filing useful feedback to how subsystems work.
