@@ -16,6 +16,7 @@
 ### [Your Windows Mixed Reality home](your-mixed-reality-home.md)
 ### [Games, 360 videos, and apps](using-games-and-apps-in-windows-mixed-reality.md)
 ### [SteamVR](using-steamvr-with-windows-mixed-reality.md)
+### [Using Microsoft Edge](using-microsoft-edge.md)  
 ### [WebVR](webvr.md)
 
 ## Troubleshooting FAQs

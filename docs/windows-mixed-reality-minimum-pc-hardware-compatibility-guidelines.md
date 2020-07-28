@@ -52,7 +52,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 > We will be updating, making additions to and may be revising these Windows Mixed Reality PC Compatibility Guidelines. Please check back regularly for the latest guidelines and requirements.
 
 **HP Reverb Compatible Specs**<br>
-Due to the higher resolution, the following requirements apply to the HP Reverb G1 & G2 product lines to ensure optimzl 90Hz experience: 
+Due to the higher resolution, the following requirements apply to the HP Reverb G1 & G2 product lines to ensure optimal 90Hz, full resolution experience: 
 
 <ul>
 <li> Intel Core i5, i7, Intel Xenon E3-1240 v5, equivalent or better. AMD Ryzen 5 equivalent or better. </li>
