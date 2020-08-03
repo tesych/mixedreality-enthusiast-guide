@@ -7,6 +7,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, WebVR, 
 
 # Using WebVR with Windows Mixed Reality
 
+>[!IMPORTANT] 
+>Most modern web browsers have deprecated support of WebVR in favor of WebXR, the new standard for creating immersive web experiences for VR headsets. Please install [the new Microsoft Edge](using-microsoft-edge.md) for WebXR support.
+
 ## What is WebVR?
 
 [WebVR](https://webvr.info) is an open specification that makes it possible to experience VR in your browser. If a website implements WebVR support and provides 3D content, it can display immersive content in the headset, with user consent.
