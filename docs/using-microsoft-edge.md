@@ -3,7 +3,7 @@ title: Using Microsoft Edge in Windows Mixed Reality
 description: Get ready for the new Microsoft Edge in Windows Mixed Reality. Includes changes to expect, updates to look out for, and known issues.
 author: mattzmsft
 ms.author: mazeller
-ms.date: 08/03/2020
+ms.date: 08/04/2020
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Home, Navigate, Get around, apps, games, Microsoft Edge, chromium, Edge
 ---
@@ -47,7 +47,7 @@ Support for classic Win32 applications in Windows Mixed Reality was introduced w
 
 **Workaround**
 
-We've since received feedback that some customers, especially those with multiple physical monitors, would prefer to disable this virtual monitor pre-allocation. To give customers control and choice, we've enabled a workaround that involves changing a registry key value (available with the 2020-07 Cumulative Update for Windows 10 Version 2004).
+We've since received feedback that some customers, especially those with multiple physical monitors, would prefer to disable this virtual monitor pre-allocation. To give customers control and choice we've enabled a workaround that involves changing a registry key value, available with the "2020-07 Cumulative Update Preview for Windows 10 Version 2004 (KB4568831)."
 
 >[!NOTE]
 >Modifying registry key values is intended for advanced users.
@@ -56,7 +56,7 @@ We've since received feedback that some customers, especially those with multipl
 >Disabling virtual monitor pre-allocation may result in your headset display briefly freezing when you launch a Win32 application (such as Steam, the new Microsoft Edge, or Google Chrome) in Windows Mixed Reality.
 
 To disable virtual monitor pre-allocation:
-1. Check **Windows Update** for the 2020-07 Cumulative Update for Windows 10 Version 2004 and install the update when available
+1. Check **Windows Update** for "2020-07 Cumulative Update Preview for Windows 10 Version 2004 (KB4568831)" and install the update when available (you may find the update under **Optional updates available**)
 2. Launch **Registry Editor**
 3. Navigate to "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Holographic\"
 4. If the "PreallocateVirtualMonitors" REG_DWORD is not present, create it by selecting **Edit > New > DWORD (32-bit) Value** and entering PreallocateVirtualMonitors as the name
