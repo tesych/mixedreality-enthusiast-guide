@@ -1,6 +1,6 @@
 ---
 title: How motion controllers work
-description: More information about motion controllers for Windows Mixed Reality.
+description: Learn about motion controllers—hardware accessories that offer precise and responsive tracking of movement using the sensors in the immersive headset.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, controller, Motion controller
 ---
@@ -8,7 +8,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, control
 
 # Motion controllers
 
-Motion controllers are hardware accessories that allow users to take action in mixed reality. An advantage of motion controllers over gestures is that the controllers have a precise position in space, allowing for fine grained interaction with digital objects. For Windows Mixed Reality immersive headsets, motion controllers are the primary way that users will take action in their world.
+Motion controllers are hardware accessories that allow users to take action in mixed reality. An advantage of motion controllers over gestures is that the controllers have a precise position in space, allowing for fine-grained interaction with digital objects. For Windows Mixed Reality immersive headsets, motion controllers are the primary way that users will take action in their world.
 
 ![Windows Mixed Reality motion controllers](images/winmr-ck-1080x1080.jpg)
 

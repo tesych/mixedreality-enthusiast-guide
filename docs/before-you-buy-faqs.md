@@ -12,14 +12,13 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 
 ### Where can I buy a Windows Mixed Reality ready PC or headset?
 
-**Quick Answer:** You can buy a Windows Mixed Reality ready PC or headset at an approved local retailer or online from a variety of retailers including the Microsoft Store. 
-* Find your local Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations> 
-* Find a Windows Mixed Reality ready PC or headset online: <https://www.microsoft.com/en-us/windows/view-all-devices?col=wmr> 
+**Quick Answer:** You can buy a Windows Mixed Reality ready PC or headset at an approved local retailer or online from a variety of retailers including the Microsoft Store. Find a Windows Mixed Reality ready PC or headset online: <https://www.microsoft.com/en-us/windows/view-all-devices?col=wmr> 
 
 ### Where can I try Windows Mixed Reality?
 
-**Quick Answer:** You can try Windows Mixed Reality in store at many local retailers including the Microsoft Store.  
-* Find your local Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations>
+**Quick Answer:** You can try Windows Mixed Reality at a [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=docs-faq-ayyonet) near you.  
+* Find your local Microsoft Reactor: <https://www.microsoft.com/en-us/store/locations/all-locations>
+* Find Microsoft Reactor events on Meetup.com: <https://www.meetup.com/pro/microsoft-reactor>
 
 ### Which manufacturers are selling Windows Mixed Reality devices?
 
@@ -49,7 +48,7 @@ Learn more about Mixed Reality here: <https://docs.microsoft.com/windows/mixed-r
 
 **More detail**: Windows Mixed Reality offers several features, including easy setup (no need for external sensors to track you and your controllers), your choice of headsets to meet your comfort and price-point, headsets that have competitive resolutions, and finally a unique user experience that features a spatial interface which allows you to use thousands of apps from the Microsoft Store.
 
-### Does Mixed Reality mean that inside-out cameras are passthrough? Can you they do Augmented Reality in addition to Virtual Reality?
+### Does Mixed Reality mean that inside-out cameras are passthrough? Can you experience Augmented Reality in addition to Virtual Reality?
 
 **Quick Answer:** No, the inside-out cameras on Windows Mixed Reality headsets are used for positional tracking only. Windows Mixed Reality headsets are occluded, meaning that they are for Virtual Reality and do not provide a view of the real world or Augmented Reality. 
 
